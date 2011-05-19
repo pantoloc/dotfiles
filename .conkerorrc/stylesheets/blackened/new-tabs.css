@@ -1,0 +1,43 @@
+#tab2-bar {
+    background: #666666;
+}
+
+.tab2 {
+    background: #555555;
+    max-width: 200px;
+    overflow: hidden; /* Chops end of label */
+}
+
+.tab2[selected=true] {
+    -moz-border-left-colors: #330033 #888888;
+    -moz-border-right-colors: #330033 #888888;
+    -moz-border-top-colors: #330033 #888888;
+    background: #000;
+}
+
+.tab2:hover {
+    -moz-border-left-colors: #eee #bbb;
+    -moz-border-right-colors: #333 #666;
+    -moz-border-top-colors: #eee #bbb;
+    background: #222222;
+}
+
+.tab2-label {
+    margin-left: 2px;
+    padding-top: 0px;
+    color: #fff;
+    font: 10px Tahoma;
+}
+
+.tab2-icon {
+    margin: 1px !important;
+    padding: 1px;
+    width: 1px;
+    height: 1px;
+    max-height: 1px;
+    -moz-border-radius: 0px;
+    background: black;
+    color: white;
+    font: 900 10px Tahoma;
+    text-align: center;
+}
